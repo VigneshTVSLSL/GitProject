@@ -9,7 +9,7 @@ public class testcase002 {
 		// TODO Auto-generated constructor stub
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver", ".\\BrowserDrivers\\chromedriver.exe");
@@ -17,6 +17,11 @@ public class testcase002 {
 		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://www.google.com");
+
+		driver.manage().window().maximize();
+		Thread.sleep(4000);
+
+		driver.close();
 
 	}
 
