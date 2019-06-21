@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15" started-at="2019-06-21T08:31:49Z" finished-at="2019-06-21T08:31:49Z">
+  <suite name="Default suite" duration-ms="131417" started-at="2019-06-21T11:41:48Z" finished-at="2019-06-21T11:44:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15" started-at="2019-06-21T08:31:49Z" finished-at="2019-06-21T08:31:49Z">
+    <test name="Default test" duration-ms="131417" started-at="2019-06-21T11:41:48Z" finished-at="2019-06-21T11:44:00Z">
+      <class name="GitProject.GitProject.Windows21June2019">
+        <test-method status="PASS" signature="windowhandling()[pri:0, instance:GitProject.GitProject.Windows21June2019@4cc0edeb]" name="windowhandling" duration-ms="131349" started-at="2019-06-21T11:41:49Z" finished-at="2019-06-21T11:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowhandling -->
+      </class> <!-- GitProject.GitProject.Windows21June2019 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

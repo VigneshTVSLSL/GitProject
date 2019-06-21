@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GitProject.GitProject.Test002_OpenFireFoxBrowser">
+      <class name="GitProject.GitProject.Windows21June2019">
         <methods>
-          <include name="OpenFireFoxBrowser"/>
+          <include name="windowhandling"/>
         </methods>
-      </class> <!-- GitProject.GitProject.Test002_OpenFireFoxBrowser -->
+      </class> <!-- GitProject.GitProject.Windows21June2019 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
