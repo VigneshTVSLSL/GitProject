@@ -7,6 +7,8 @@
       <class name="GitProject.GitProject.AppTest"/>
        -->
        <class name="GitProject.GitProject.Test001_OpenChromeBrowser"/>
+       
+       
     </classes>
   </test> <!-- testcases -->
 </suite> <!-- Suite -->

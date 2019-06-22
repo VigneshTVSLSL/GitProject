@@ -19,13 +19,11 @@ public class Windows21June2019 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
 		driver.manage().window().maximize();
-		
+
 		// Adding New step & methods 1.
 		// Adding New step & methods 2.
 		// Adding New step & methods 3.
 		// Adding New step & methods 4.
-
-
 
 		// WebDriverWait wait = new WebDriverWait(driver, 60);
 
@@ -79,4 +77,5 @@ public class Windows21June2019 {
 		driver.close();
 
 	}
+
 }
